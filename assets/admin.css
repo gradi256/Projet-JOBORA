@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 350px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.Connexion{
+    box-shadow: turquoise 0 5px 15px;
+    border-radius: 20px;
+    padding: 20px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    display: none;
+}
+.Connexion h1{
+    font-size: 45px;
+    color: rgb(12, 114, 104);
+}
+.Connexion img {
+    width: 200px;
+    border-radius: 50%;
+    transition: 0.5s ease-in;
+}
+.Connexion img:hover{
+    transform: scale(1.1);
+}
+.formulaireConnexion{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+label{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+input{
+    border-radius: 10px;
+    padding: 2px 5px;
+    font-size: 18px;
+    height: 40px;
+    border: none;
+    background-color: rgba(64, 224, 208, 0.253);
+    color:rgb(10, 107, 97);
+    outline: none;
+}
+input:focus{
+    border:solid turquoise 2px;
+}
+#btnConnexion{
+    margin-top: 40px;
+    width: 200px;
+    margin-left: 95px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border: none;
+    background-color:rgb(13, 71, 66);
+    color: white;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btnConnexion:hover{
+    background-color: white;
+    color: rgb(13, 71, 66);
+    box-shadow: rgb(13, 71, 66) 0px 5px 10px;
+}
+.otherOptions{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.otherOptions a {
+    color: turquoise;
+}
+.versInscription{
+    text-decoration: none;
+    color: white !important;
+    background-color: turquoise;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.inscription{
+    box-shadow: turquoise 0 5px 15px;
+    border-radius: 20px;
+    padding: 20px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.inscription h1{
+    font-size: 45px;
+    color: rgb(12, 114, 104);
+}
+.inscription img {
+    width: 200px;
+    border-radius: 50%;
+    transition: 0.5s ease-in;
+}
+.inscription img:hover{
+    transform: scale(1.1);
+}
+.formulaireInscription{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+}
+#btnInscription{
+    margin-top: 40px;
+    width: 200px;
+    margin-left: 95px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border: none;
+    background-color:rgb(13, 71, 66);
+    color: white;
+    transition: 0.5s ease;
+    cursor: pointer;   
+}
+#btnInscription:hover{
+    background-color: white;
+    color: rgb(13, 71, 66);
+    box-shadow: rgb(13, 71, 66) 0px 5px 10px;
+}

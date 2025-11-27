@@ -4,30 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JOBORA</title>
+    <link rel="stylesheet" href="assets/admin.css">
 </head>
 <body>
     <main>
         <section class="Connexion" >
             <h1>Connexion</h1>
-            <img src="images/logo.png">
-            <form action="">
-                <div class="champEmail">
-                    <label for="email">Email</label>
-                    <input type="email" placeholder="Nom@example.com" id="email" name="email">
-                </div>
-                <div class="campPassword">
-                    <label for="password">Mot de passe</label>
-                    <input type="password" placeholder="Votre mot de passse" id="password" name="password">
-                </div>
-                <div class="button">
-                    <button id="btnConnexion">Connectez-vous</button>
+            <img src="images/logo2.png">
+            <form action="" class="formulaireConnexion">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Nom@example.com" id="email" name="email">
+                <label for="password">Mot de passe</label>
+                <input type="password" placeholder="Votre mot de passse" id="password" name="password">
+                <button id="btnConnexion">Connectez-vous</button>
+                <div class="otherOptions">
                     <a href="#">Mot de passe oublié ?</a>
+                    <a href="#" class="versInscription">Inscription</a>
                 </div>
             </form>
         </section>
 
         <section class="inscription">
-
+            <h1>Inscription</h1>
+            <img src="images/logo2.png">
+            <form action="" class="formulaireInscription">
+                <label for="name">Nom d'utilisateur</label>
+                <input type="text" name="name" id="name" placeholder="Votre nom" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Nom@example.com" required>
+                <label for="password">Mot de passe</label>
+                <input type="password" id="password" name="password" required>
+                <button id="btnInscription">Inscrivez-vous</button>
+            </form>
         </section>
     </main>
 </body>
